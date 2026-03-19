@@ -1,0 +1,6 @@
+vaderSentiment
+requests
+pandas
+textblob
+psycopg2-binary
+streamlit
