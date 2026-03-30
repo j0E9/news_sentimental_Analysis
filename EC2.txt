@@ -1,0 +1,22 @@
+ssh -i "my-key.pem" ubuntu@65.2.179.57
+
+psql -h newsdb.cvmq2ycosc1l.ap-south-1.rds.amazonaws.com -U postgres -d postgres
+
+
+
+
+ docker stop $(docker ps -q)
+
+docker run -d -p 8501:8501 \
+-e DB_HOST=newsdb.cvmq2ycosc1l.ap-south-1.rds.amazonaws.com \
+-e DB_USER=postgres \
+-e DB_PASS=iXVOs6zVMHxACgsMbDdL \
+814322375050.dkr.ecr.ap-south-1.amazonaws.com/news-dashboard
+1f715b5d2a88
+511ab4a28dc04ce2902c75d6ca4e97e50b0ae36ab113f575519688b5aa8ea1c5
+
+
+
+
+
+link -http://news-alb-626915144.ap-south-1.elb.amazonaws.com

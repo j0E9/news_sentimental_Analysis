@@ -1,23 +1,22 @@
 # Python
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
 
-# Virtual Environment
-venv/
-env/
+# Virtual env
+.venv/
 
-# Anaconda
-*.conda
-*.env
+# IDE
+.idea/
 
-# Streamlit
-.streamlit/
+# Secrets
+*.pem
+*.csv
+.env
+
+# AWS Lambda layers / builds
+python/
+*.zip
 
 # OS
 .DS_Store
 Thumbs.db
-
-# Secrets
-.env

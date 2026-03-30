@@ -1,0 +1,2 @@
+password - iXVOs6zVMHxACgsMbDdL
+endpoint - newsdb.cvmq2ycosc1l.ap-south-1.rds.amazonaws.com
